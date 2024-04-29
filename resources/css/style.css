@@ -120,6 +120,60 @@ header {
     border: none;
 }
 
+/*Banner mobile version*/
+.mobile-banner-img {
+    width: 100%;
+}
+
+.banner-mobile {
+    display: none;
+}
+
+@media only screen and (max-width:550px) {
+    .banner {
+        display: none;
+    }
+
+    .banner-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-banner-img {
+        position: relative;
+        top: 64px;
+    }
+
+    .mobile-description {
+        position: relative;
+        top: 64px;
+        background-color: rgb(209, 209, 209);
+    }
+
+    .mobile-description h1 {
+        margin: 32px 0 32px 16px;
+        color: rgb(51, 51, 51); 
+        font-size: 45px;
+    }
+
+    .mobile-description p {
+        margin: 24px 16px;
+        color: rgb(51, 51, 51);
+        font-size: 30px;
+    }
+
+    .mobile-description button {
+        margin-left: 16px;
+        margin-bottom: 32px;
+        width: 90%;
+        font-size: 30px;
+        color: white;
+        background-color: rgb(148, 148, 148);
+        border: none;
+        padding: 8px 0;
+    }
+}
+
 
 
 
