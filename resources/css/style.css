@@ -430,6 +430,41 @@ header {
     color: grey;
 }
 
+.start-learning-mobile-wrapper {
+    display: none;
+}
+
+/*Start learning section mobile version*/
+@media only screen and (max-width: 680px) {
+    .start-learning-wrapper {
+        display: none;
+    }
+
+    .start-learning-mobile-wrapper {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 94px;
+        text-align: center;
+        border-top: 1px solid grey;
+    }
+
+    .start-learning-mobile {
+        margin-top: 32px;
+        margin-bottom: 16px;
+    }
+
+    .module {
+        padding: 16px 0 24px 16px;
+        margin: 8px 16px;
+        background-color: rgb(216, 216, 216);
+    }
+
+    .module:last-child {
+        margin-bottom: 32px;
+    }
+}
+
 
 
 
