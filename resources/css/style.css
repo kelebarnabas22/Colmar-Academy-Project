@@ -134,7 +134,7 @@ header {
     color: white;
     background-color: rgb(51, 51, 51);
     border: none; 
-    transition: background-color 0.5s ease;   
+    transition: background-color 1s ease;   
 }
 
 .banner-text button:hover {
@@ -169,18 +169,18 @@ header {
     .mobile-description {
         position: relative;
         top: 64px;
-        background-color: rgb(216, 216, 216);
+        background-color: rgb(0, 31, 63);
     }
 
     .mobile-description h1 {
         margin: 32px 0 32px 16px;
-        color: rgb(51, 51, 51); 
+        color: rgb(245, 245, 220); 
         font-size: 45px;
     }
 
     .mobile-description p {
         margin: 24px 16px;
-        color: rgb(51, 51, 51);
+        color: rgb(245, 245, 220);
         font-size: 30px;
     }
 
@@ -190,9 +190,16 @@ header {
         width: 90%;
         font-size: 30px;
         color: white;
-        background-color: rgb(148, 148, 148);
+        background-color: rgb(51, 51, 51);
         border: none;
         padding: 8px 0;
+        transition: background-color 1s ease;  
+    }
+
+    .mobile-description button:hover {
+        background-color: rgb(3, 255, 255);
+        text-shadow: black 1px 0 10px;
+
     }
 }
 
@@ -365,7 +372,8 @@ header {
     }
 
     .mobile-news img {
-        margin: 16px;
+        margin: 16px 32px 0 0;
+        width: 100%;
     }
 
     .mobile-news-container {
@@ -374,23 +382,49 @@ header {
     }
 
     .mobile-news-container h3 {
-        margin-left: 32px;
-        margin-top: 16px;
+        margin-left: 16px;
+        padding-top: 16px;
         margin-bottom: 16px;
         font-size: 30px;
         color: rgb(37, 37, 37);
     }
 
     .mobile-news-container p {
-        margin-left: 32px;
+        margin-left: 16px;
+        margin-right: 16px;
         margin-bottom: 16px;
         font-size: 20px;
     }
+
+    .mobile-news-info {
+        transition: background-color 0.5s ease;
+    }
+
+    .mobile-news-info:hover {
+        background-color: rgb(3, 255, 255);
+    }
+
+    .mobile-news-info a {
+        text-decoration: none;
+    }
+
+    .readmore {
+        padding-bottom: 16px;
+    }
+
+    .readmore a {
+        transition: color 1.5s ease;
+    }
+
+    .readmore a:hover {
+        color: rgb(245, 245, 220);
+    }
+
 }
 
 /*Start learning desktop section*/
 .start-learning-wrapper {
-    background-color: rgb(216, 216, 216);
+    background-color:  rgb(0, 31, 63);
     margin-top: 30px;
 }
 
@@ -402,7 +436,7 @@ header {
 
 .start-learning h2 {
     font-size: 45px;
-    color: rgb(51, 51, 51);
+    color: rgb(245, 245, 220);
 }
 
 .learning-blocks {
@@ -417,34 +451,70 @@ header {
     width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.software a {
+    text-decoration: none;
+}
+
+.software:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .computer-art {
     width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.computer-art:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .design {
     width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.design:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .data {
     width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.data:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .business {
+    width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.business:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .marketing {
+    width: 532px;
     background-color: white;
     margin-bottom: 32px;
+    transition: background-color 1s ease;
+}
+
+.marketing:hover {
+    background-color: rgb(3, 255, 255);
 }
 
 .course {
@@ -457,13 +527,13 @@ header {
     margin-top: 8px;
     margin-bottom: 8px;
     margin-left: 16px;
-    color: grey;
+    color: rgb(51, 51, 51);
 }
 
 .course-description {
     margin-left: 16px;
     margin-bottom: 24px;
-    color: grey;
+    color: rgb(51, 51, 51);
 }
 
 .start-learning-mobile-wrapper {
@@ -493,9 +563,20 @@ header {
     .module {
         padding: 16px 0 24px 16px;
         margin: 8px 16px;
-        background-color: rgb(216, 216, 216);
+        background-color: rgb(0, 31, 63);
+        color: rgb(245, 245, 220);
+        transition: background-color 1s ease;;
     }
 
+    .module:hover {
+        background-color: rgb(3, 255, 255);
+    }
+
+    .module a {
+        text-decoration: none;
+        color: rgb(245, 245, 220);
+    }
+    
     .module:last-child {
         margin-bottom: 32px;
     }
