@@ -264,6 +264,10 @@ header {
     background-color: rgb(3, 255, 255);
 }
 
+.section-one a {
+    text-decoration: none;
+}
+
 .orientation-info {
     width: 65%;
     display: flex;
@@ -302,6 +306,10 @@ header {
     background-color: rgb(3, 255, 255);
 }
 
+.section-two a {
+    text-decoration: none;
+}
+
 .campus-img {
     height: auto;
     width: 35%;
@@ -335,6 +343,10 @@ header {
 
 .section-three:hover {
     background-color: rgb(3, 255, 255);
+}
+
+.section-three a {
+    text-decoration: none;
 }
 
 .img-guest-lecture {
@@ -737,6 +749,23 @@ header {
 .copyright-right a:hover {
     color: rgb(3, 255, 255);
 }
+
+.footer-mobile {
+    display: none;
+}
+
+/*Footer mobile section*/
+@media only screen and (max-width: 680px) {
+    .footer-mobile {
+        display: flex;
+        margin-top: 24px;
+    }
+
+    .footer-mobile p {
+        padding: 16px 16px;
+    }
+}
+
 
 
 
