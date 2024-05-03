@@ -154,6 +154,7 @@ header {
 @media only screen and (max-width:680px) {
     .banner {
         display: none;
+        width: 100%;
     }
 
     .banner-mobile {
@@ -176,12 +177,14 @@ header {
         margin: 32px 0 32px 16px;
         color: rgb(245, 245, 220); 
         font-size: 45px;
+        width: 90%;
     }
 
     .mobile-description p {
         margin: 24px 16px;
         color: rgb(245, 245, 220);
         font-size: 30px;
+        width: 90%;
     }
 
     .mobile-description button {
@@ -655,6 +658,34 @@ header {
     margin-bottom: 16px;
 }
 
+.thesis-exhibit-mobile {
+    display: none;
+}
+
+/*Thesis exhibit mobile version*/
+@media only screen and (max-width: 680px) {
+    .thesis-exhibit-section {
+        display: none;
+    }
+
+    .thesis-exhibit-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: relative;
+        top: 92px;
+        margin-top: 32px; 
+    }
+
+    .thesis-exhibit-mobile h1 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .thesis-exhibit-mobile video {
+        width: 100%;
+    }
+}
 
 
 
