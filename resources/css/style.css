@@ -472,6 +472,10 @@ header {
     transition: background-color 1s ease;
 }
 
+.computer-art a {
+    text-decoration: none;
+}
+
 .computer-art:hover {
     background-color: rgb(3, 255, 255);
 }
@@ -481,6 +485,10 @@ header {
     background-color: white;
     margin-bottom: 32px;
     transition: background-color 1s ease;
+}
+
+.design a {
+    text-decoration: none;
 }
 
 .design:hover {
@@ -494,6 +502,10 @@ header {
     transition: background-color 1s ease;
 }
 
+.data a {
+    text-decoration: none;
+}
+
 .data:hover {
     background-color: rgb(3, 255, 255);
 }
@@ -505,6 +517,10 @@ header {
     transition: background-color 1s ease;
 }
 
+.business a {
+    text-decoration: none;
+}
+
 .business:hover {
     background-color: rgb(3, 255, 255);
 }
@@ -514,6 +530,10 @@ header {
     background-color: white;
     margin-bottom: 32px;
     transition: background-color 1s ease;
+}
+
+.marketing a {
+    text-decoration: none;
 }
 
 .marketing:hover {
@@ -633,7 +653,7 @@ header {
     display: flex;
     width: 100%;
     padding: 16px;
-    transition: background-color 1s ease
+    transition: background-color 1s ease;
 }
 
 .fisma:hover {
@@ -684,7 +704,38 @@ header {
 
     .thesis-exhibit-mobile video {
         width: 100%;
+        margin-bottom: 24px;
     }
+}
+
+/*Footer desktop section*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 32px;
+}
+
+.copyright-right {
+    display: flex;
+    flex-direction: row;
+}
+
+.copyright-right p:last-child {
+    margin-left: 16px;
+}
+
+.copyright-right a {
+    text-decoration: none;
+    transition: color 1s ease;
+    color: black;
+}
+
+
+.copyright-right a:hover {
+    color: rgb(3, 255, 255);
 }
 
 
